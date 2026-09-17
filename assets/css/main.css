@@ -166,7 +166,7 @@ a { color: inherit; }
 :root[data-theme="dark"] .btn--primary,
 .section--ink .btn--primary { background: var(--pine-700); color: var(--pine-100); }
 
-.btn--ghost { border-color: var(--line-strong); color: var(--ink); background: transparent; }
+.btn--ghost { border-color: var(--border-control); color: var(--ink); background: transparent; }
 .btn--ghost:hover { border-color: var(--pine-500); color: var(--pine-700); }
 .section--ink .btn--ghost { border-color: rgb(255 255 255 / 0.28); color: var(--ink-inverse); }
 .section--ink .btn--ghost:hover { border-color: var(--brass-400); color: var(--brass-400); }
@@ -218,6 +218,7 @@ a { color: inherit; }
 .brand__mark { width: 38px; height: 38px; flex: none; }
 .brand__name {
   font-family: var(--font-display);
+  white-space: nowrap;
   font-size: 1.16rem;
   font-weight: 600;
   letter-spacing: -0.015em;
@@ -231,11 +232,12 @@ a { color: inherit; }
   letter-spacing: 0.17em;
   text-transform: uppercase;
   color: var(--ink-faint);
+  white-space: nowrap;
   margin-top: 3px;
 }
 
 .nav { display: none; }
-@media (min-width: 1000px) { .nav { display: flex; align-items: center; gap: var(--space-1); } }
+@media (min-width: 1120px) { .nav { display: flex; align-items: center; gap: var(--space-1); } }
 
 .nav__link {
   position: relative;
@@ -300,7 +302,7 @@ a { color: inherit; }
 
 .header__actions { display: flex; align-items: center; gap: var(--space-2); }
 .header__cta { display: none; }
-@media (min-width: 1000px) { .header__cta { display: inline-flex; padding: 11px 20px; } }
+@media (min-width: 1120px) { .header__cta { display: inline-flex; padding: 11px 20px; white-space: nowrap; } }
 
 .icon-btn {
   display: inline-flex;
@@ -308,14 +310,14 @@ a { color: inherit; }
   justify-content: center;
   width: 42px;
   height: 42px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--border-control);
   border-radius: var(--radius-pill);
   background: transparent;
   color: var(--ink);
   cursor: pointer;
   transition: border-color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out);
 }
-.icon-btn:hover { border-color: var(--line-strong); background: var(--surface-200); }
+.icon-btn:hover { border-color: var(--ink-muted); background: var(--surface-200); }
 .icon-btn svg { width: 18px; height: 18px; }
 .icon-btn .icon-moon { display: none; }
 :root[data-theme="dark"] .icon-btn .icon-moon { display: block; }
@@ -326,7 +328,7 @@ a { color: inherit; }
 }
 
 .nav-toggle { display: inline-flex; }
-@media (min-width: 1000px) { .nav-toggle { display: none; } }
+@media (min-width: 1120px) { .nav-toggle { display: none; } }
 
 /* ---------- Mobile drawer ---------- */
 
@@ -664,7 +666,7 @@ a.card:hover, .card--hover:hover {
   gap: var(--space-4);
   padding: clamp(40px, 7vw, 80px);
   text-align: center;
-  border: 1px dashed var(--line-strong);
+  border: 1px dashed var(--border-control);
   border-radius: var(--radius-lg);
   background: var(--surface-200);
 }
@@ -701,7 +703,7 @@ a.card:hover, .card--hover:hover {
   font: inherit;
   color: var(--ink);
   background: var(--surface-100);
-  border: 1px solid var(--line-strong);
+  border: 1px solid var(--border-control);
   border-radius: var(--radius-sm);
   transition: border-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out);
 }
@@ -778,7 +780,7 @@ a.card:hover, .card--hover:hover {
   align-items: center;
   justify-content: center;
   width: 38px; height: 38px;
-  border: 1px solid var(--line-strong);
+  border: 1px solid var(--border-control);
   border-radius: 50%;
   transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
 }

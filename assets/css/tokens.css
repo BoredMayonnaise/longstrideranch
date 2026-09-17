@@ -14,7 +14,7 @@
   /* Ink */
   --ink: #1b201c;
   --ink-muted: #59615a;
-  --ink-faint: #7b837c;
+  --ink-faint: #6f776f;
   --ink-inverse: #f6f1e8;
 
   /* Pine — the primary brand green */
@@ -37,6 +37,7 @@
   /* Lines */
   --line: #ded3c2;
   --line-strong: #c5b8a3;
+  --border-control: #8e8371;
 
   /* Elevation */
   --shadow-sm: 0 1px 2px rgb(27 32 28 / 0.06), 0 1px 3px rgb(27 32 28 / 0.05);
@@ -114,6 +115,7 @@
 
     --line: #303834;
     --line-strong: #46504a;
+    --border-control: #6d766f;
 
     --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
     --shadow-md: 0 4px 10px rgb(0 0 0 / 0.35), 0 12px 28px rgb(0 0 0 / 0.4);
@@ -150,6 +152,7 @@
 
   --line: #303834;
   --line-strong: #46504a;
+  --border-control: #6d766f;
 
   --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
   --shadow-md: 0 4px 10px rgb(0 0 0 / 0.35), 0 12px 28px rgb(0 0 0 / 0.4);

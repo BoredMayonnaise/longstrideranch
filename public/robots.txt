@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://longstrideranch.com/sitemap.xml

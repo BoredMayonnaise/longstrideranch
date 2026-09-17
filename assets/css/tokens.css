@@ -1,0 +1,157 @@
+/* Long Stride Ranch — design tokens.
+   Mirrors the Long Stride Ranch design system: pine, saddle, parchment, brass.
+   Edit here and in the design system together. */
+
+:root {
+  color-scheme: light dark;
+
+  /* Surfaces */
+  --surface-100: #faf7f2;
+  --surface-200: #f2ece2;
+  --surface-300: #e6dccd;
+  --surface-inverse: #161a17;
+
+  /* Ink */
+  --ink: #1b201c;
+  --ink-muted: #59615a;
+  --ink-faint: #7b837c;
+  --ink-inverse: #f6f1e8;
+
+  /* Pine — the primary brand green */
+  --pine-900: #14261d;
+  --pine-700: #1f3d2f;
+  --pine-500: #35604a;
+  --pine-300: #7fae92;
+  --pine-100: #dce8de;
+
+  /* Saddle — leather accent */
+  --saddle-700: #7c421a;
+  --saddle-600: #9a5623;
+  --saddle-500: #b96c33;
+  --saddle-200: #efd9c4;
+
+  /* Brass — fine detail, rules, ornament */
+  --brass-500: #8d6a1d;
+  --brass-400: #c9973f;
+
+  /* Lines */
+  --line: #ded3c2;
+  --line-strong: #c5b8a3;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgb(27 32 28 / 0.06), 0 1px 3px rgb(27 32 28 / 0.05);
+  --shadow-md: 0 4px 10px rgb(27 32 28 / 0.06), 0 12px 28px rgb(27 32 28 / 0.08);
+  --shadow-lg: 0 8px 20px rgb(27 32 28 / 0.08), 0 28px 60px rgb(27 32 28 / 0.12);
+
+  /* ---- Typography ---- */
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --step--1: clamp(0.82rem, 0.79rem + 0.14vw, 0.9rem);
+  --step-0:  clamp(1rem, 0.96rem + 0.2vw, 1.09rem);
+  --step-1:  clamp(1.2rem, 1.12rem + 0.38vw, 1.42rem);
+  --step-2:  clamp(1.45rem, 1.3rem + 0.72vw, 1.9rem);
+  --step-3:  clamp(1.8rem, 1.5rem + 1.4vw, 2.6rem);
+  --step-4:  clamp(2.2rem, 1.65rem + 2.5vw, 3.6rem);
+  --step-5:  clamp(2.6rem, 1.6rem + 4.6vw, 5.2rem);
+
+  /* ---- Space ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 136px;
+
+  /* ---- Radius ---- */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* ---- Layout ---- */
+  --measure: 62ch;
+  --page-max: 1220px;
+  --gutter: clamp(20px, 5vw, 56px);
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 140ms;
+  --dur-mid: 320ms;
+  --dur-slow: 720ms;
+}
+
+/* Dark theme: follows the OS unless the page pins data-theme="light". */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface-100: #121613;
+    --surface-200: #1a1f1b;
+    --surface-300: #262d28;
+    --surface-inverse: #f2ece2;
+
+    --ink: #f0eae0;
+    --ink-muted: #a8b1a7;
+    --ink-faint: #868e87;
+    --ink-inverse: #14201a;
+
+    --pine-900: #d9e9dd;
+    --pine-700: #a9cfb6;
+    --pine-500: #7fae92;
+    --pine-300: #4a7a60;
+    --pine-100: #1e3327;
+
+    --saddle-700: #f2cba6;
+    --saddle-600: #e0a06a;
+    --saddle-500: #cf8447;
+    --saddle-200: #3a2617;
+
+    --brass-500: #e5c27c;
+    --brass-400: #d9b264;
+
+    --line: #303834;
+    --line-strong: #46504a;
+
+    --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+    --shadow-md: 0 4px 10px rgb(0 0 0 / 0.35), 0 12px 28px rgb(0 0 0 / 0.4);
+    --shadow-lg: 0 8px 20px rgb(0 0 0 / 0.4), 0 28px 60px rgb(0 0 0 / 0.5);
+  }
+}
+
+/* Dark theme: pinned by the toggle. */
+:root[data-theme="dark"] {
+
+  --surface-100: #121613;
+  --surface-200: #1a1f1b;
+  --surface-300: #262d28;
+  --surface-inverse: #f2ece2;
+
+  --ink: #f0eae0;
+  --ink-muted: #a8b1a7;
+  --ink-faint: #868e87;
+  --ink-inverse: #14201a;
+
+  --pine-900: #d9e9dd;
+  --pine-700: #a9cfb6;
+  --pine-500: #7fae92;
+  --pine-300: #4a7a60;
+  --pine-100: #1e3327;
+
+  --saddle-700: #f2cba6;
+  --saddle-600: #e0a06a;
+  --saddle-500: #cf8447;
+  --saddle-200: #3a2617;
+
+  --brass-500: #e5c27c;
+  --brass-400: #d9b264;
+
+  --line: #303834;
+  --line-strong: #46504a;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 10px rgb(0 0 0 / 0.35), 0 12px 28px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 8px 20px rgb(0 0 0 / 0.4), 0 28px 60px rgb(0 0 0 / 0.5);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<link rel="canonical" href="https://longstrideranch.com/{{SLUG_PATH}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Long Stride Ranch">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="https://longstrideranch.com/{{SLUG_PATH}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1f3d2f" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121613" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<script>
+  document.documentElement.classList.add('js');
+  try {
+    var t = localStorage.getItem('lsr-theme');
+    if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+  } catch (e) {}
+  // If main.js never arrives, drop back to the no-JS styles so nothing stays hidden.
+  setTimeout(function () {
+    if (!window.__lsrReady) document.documentElement.classList.remove('js');
+  }, 2500);
+</script>
+{{JSONLD}}
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+{{HEADER}}
+<main id="main">
+{{CONTENT}}
+</main>
+{{FOOTER}}
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

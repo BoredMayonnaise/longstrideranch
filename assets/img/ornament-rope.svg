@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" fill="none">
+  <g stroke="#f6f1e8" stroke-width="1.5">
+    <circle cx="150" cy="200" r="180"/>
+    <circle cx="150" cy="200" r="260"/>
+    <circle cx="1050" cy="200" r="180"/>
+    <circle cx="1050" cy="200" r="260"/>
+    <path d="M0 330 C 300 270, 900 270, 1200 330"/>
+    <path d="M0 70 C 300 130, 900 130, 1200 70"/>
+  </g>
+</svg>

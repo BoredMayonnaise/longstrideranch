@@ -1,0 +1,16 @@
+{
+  "name": "longstrideranch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing site for Long Stride Ranch — Jackson Hole, Wyoming and Wellington, Florida.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --serve",
+    "start": "node build.mjs --serve"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

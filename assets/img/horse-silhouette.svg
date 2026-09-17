@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 170" aria-hidden="true">
+  <g fill="currentColor">
+    <!-- the three masses: hindquarter, barrel, shoulder -->
+    <ellipse cx="144" cy="70" rx="31" ry="30"/>
+    <ellipse cx="108" cy="72" rx="42" ry="26"/>
+    <ellipse cx="78" cy="70" rx="27" ry="26"/>
+
+    <!-- neck, poll down to chest -->
+    <path d="M48 32 C 60 22, 74 26, 86 42 C 96 56, 100 72, 98 90 L 66 92 C 62 72, 55 48, 48 32 Z"/>
+
+    <!-- head -->
+    <path d="M24 44 C 28 37, 35 30, 45 23 C 50 20, 55 23, 54 30 C 53 38, 49 45, 43 49 C 37 53, 29 54, 25 52 C 22 50, 22 46, 24 44 Z"/>
+    <!-- ears -->
+    <path d="M44 26 L 43 15 C 43 12, 46 12, 47 15 L 50 24 Z"/>
+    <path d="M49 24 L 52 14 C 53 11, 56 12, 56 15 L 56 26 Z"/>
+
+    <!-- tail -->
+    <path d="M160 46 C 171 56, 176 80, 172 102 C 170 114, 165 120, 162 118 C 158 116, 163 108, 163 96 C 163 78, 158 60, 153 51 Z"/>
+
+    <!-- far foreleg -->
+    <path d="M88 76 L 102 76 L 100 112 L 99 149 L 91 149 L 91 112 Z"/>
+    <rect x="89" y="149" width="12" height="6" rx="1.5"/>
+    <!-- near foreleg -->
+    <path d="M62 74 L 78 74 L 75 112 L 74 149 L 65 149 L 66 112 Z"/>
+    <rect x="63" y="149" width="13" height="6" rx="1.5"/>
+
+    <!-- far hind leg -->
+    <path d="M124 66 L 146 70 L 144 100 C 143 106, 138 108, 137 114 L 136 149 L 128 149 L 128 112 C 128 104, 124 96, 122 86 Z"/>
+    <rect x="126" y="149" width="12" height="6" rx="1.5"/>
+    <!-- near hind leg -->
+    <path d="M140 64 L 166 70 L 163 102 C 162 108, 157 110, 156 116 L 155 149 L 146 149 L 146 114 C 146 104, 142 94, 139 84 Z"/>
+    <rect x="144" y="149" width="13" height="6" rx="1.5"/>
+  </g>
+</svg>

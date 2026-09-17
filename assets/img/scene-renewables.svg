@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of bedding and manure being composted into soil and fuel">
+  <defs>
+    <linearGradient id="rsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfe9dc"/>
+      <stop offset="100%" stop-color="#f4efe4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#rsky)"/>
+  <circle cx="660" cy="118" r="54" fill="#e7c98a" opacity="0.55"/>
+
+  <!-- windrows -->
+  <path fill="#6b4a2c" d="M40 420 C 90 336, 190 336, 240 420 Z"/>
+  <path fill="#7d5834" d="M40 420 C 90 356, 190 356, 240 420 Z" opacity="0.6"/>
+  <path fill="#6b4a2c" d="M250 440 C 306 344, 418 344, 474 440 Z"/>
+  <path fill="#7d5834" d="M250 440 C 306 370, 418 370, 474 440 Z" opacity="0.6"/>
+
+  <!-- steam -->
+  <g stroke="#b6c3b1" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M140 322 C 124 300, 156 288, 140 264"/>
+    <path d="M362 330 C 346 306, 378 294, 362 268"/>
+    <path d="M300 350 C 288 332, 312 322, 300 302"/>
+  </g>
+
+  <!-- sprout in finished compost -->
+  <path fill="#4a6b3a" d="M556 440 C 592 380, 660 380, 696 440 Z"/>
+  <g stroke="#2f5a34" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M626 400 v-70"/>
+  </g>
+  <path fill="#3f7a46" d="M626 350 C 600 348, 586 330, 586 310 C 612 310, 624 326, 626 350 Z"/>
+  <path fill="#4c8f52" d="M626 344 C 652 340, 666 322, 666 302 C 640 304, 628 320, 626 344 Z"/>
+
+  <!-- ground -->
+  <rect x="0" y="436" width="800" height="64" fill="#3f5c39"/>
+  <rect x="0" y="436" width="800" height="10" fill="#4f7045"/>
+  <g stroke="#2f4a2c" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <path d="M80 500 v-34"/><path d="M180 500 v-44"/><path d="M420 500 v-38"/>
+    <path d="M540 500 v-46"/><path d="M700 500 v-36"/>
+  </g>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustration of the Teton range at dawn with a horse in the foreground pasture">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b3a2d"/>
+      <stop offset="42%" stop-color="#3f6b58"/>
+      <stop offset="74%" stop-color="#c98f5a"/>
+      <stop offset="100%" stop-color="#efc89a"/>
+    </linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb4a1"/>
+      <stop offset="100%" stop-color="#5e8a76"/>
+    </linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d6b55"/>
+      <stop offset="100%" stop-color="#274c3b"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c3b2d"/>
+      <stop offset="100%" stop-color="#11241b"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="800" height="1000"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="800" height="1000" fill="url(#sky)"/>
+    <circle cx="560" cy="516" r="62" fill="#f7dcae" opacity="0.85"/>
+
+    <!-- far range -->
+    <path fill="url(#far)" d="M-20 560 L90 430 L150 486 L232 356 L286 420 L338 372 L420 470 L470 424 L534 500 L604 438 L672 512 L742 462 L820 548 L820 600 L-20 600 Z" opacity="0.75"/>
+    <!-- snow caps -->
+    <path fill="#f3efe6" opacity="0.8" d="M232 356 L262 402 L246 396 L232 410 L218 392 L204 400 Z"/>
+    <path fill="#f3efe6" opacity="0.7" d="M90 430 L112 466 L100 460 L90 472 L78 458 L66 464 Z"/>
+    <path fill="#f3efe6" opacity="0.6" d="M604 438 L626 472 L614 468 L604 480 L592 466 L582 472 Z"/>
+
+    <!-- mid range -->
+    <path fill="url(#mid)" d="M-20 640 L64 552 L140 606 L222 520 L300 592 L372 540 L452 614 L530 556 L618 620 L700 566 L820 646 L820 720 L-20 720 Z"/>
+
+    <!-- treeline -->
+    <g fill="#16301f">
+      <path d="M-20 716 h840 v100 h-840 z"/>
+    </g>
+    <g fill="#16301f">
+      <path d="M0 718 l14-42 14 42 z M34 720 l11-34 11 34 z M62 716 l16-48 16 48 z M100 720 l12-36 12 36 z M132 714 l15-46 15 46 z M168 720 l10-32 10 32 z M194 716 l14-44 14 44 z M228 720 l12-38 12 38 z M258 714 l16-48 16 48 z M296 720 l11-34 11 34 z M324 716 l14-44 14 44 z M358 720 l12-36 12 36 z M388 714 l15-46 15 46 z M424 720 l10-32 10 32 z M450 716 l14-44 14 44 z M484 720 l12-38 12 38 z M514 714 l16-48 16 48 z M552 720 l11-34 11 34 z M580 716 l14-44 14 44 z M614 720 l12-36 12 36 z M644 714 l15-46 15 46 z M680 720 l10-32 10 32 z M706 716 l14-44 14 44 z M740 720 l12-38 12 38 z M770 714 l16-48 16 48 z"/>
+    </g>
+
+    <!-- pasture -->
+    <path fill="url(#field)" d="M-20 754 C 180 726, 420 774, 820 738 L820 1020 L-20 1020 Z"/>
+
+    <!-- fence -->
+    <g stroke="#0d1c15" stroke-width="5" opacity="0.85">
+      <path d="M-20 806 C 200 782, 460 822, 820 792"/>
+      <path d="M-20 836 C 200 812, 460 852, 820 822"/>
+    </g>
+    <g fill="#0d1c15" opacity="0.9">
+      <rect x="40" y="778" width="7" height="82" rx="2"/>
+      <rect x="190" y="774" width="7" height="86" rx="2"/>
+      <rect x="340" y="784" width="7" height="86" rx="2"/>
+      <rect x="490" y="800" width="7" height="86" rx="2"/>
+      <rect x="640" y="796" width="7" height="86" rx="2"/>
+      <rect x="760" y="788" width="7" height="86" rx="2"/>
+    </g>
+
+    <!-- a horse out in the pasture -->
+    <g transform="translate(452 706) scale(0.62)" fill="#0a1710" opacity="0.95">
+    <!-- the three masses: hindquarter, barrel, shoulder -->
+    <ellipse cx="144" cy="70" rx="31" ry="30"/>
+    <ellipse cx="108" cy="72" rx="42" ry="26"/>
+    <ellipse cx="78" cy="70" rx="27" ry="26"/>
+
+    <!-- neck, poll down to chest -->
+    <path d="M48 32 C 60 22, 74 26, 86 42 C 96 56, 100 72, 98 90 L 66 92 C 62 72, 55 48, 48 32 Z"/>
+
+    <!-- head -->
+    <path d="M24 44 C 28 37, 35 30, 45 23 C 50 20, 55 23, 54 30 C 53 38, 49 45, 43 49 C 37 53, 29 54, 25 52 C 22 50, 22 46, 24 44 Z"/>
+    <!-- ears -->
+    <path d="M44 26 L 43 15 C 43 12, 46 12, 47 15 L 50 24 Z"/>
+    <path d="M49 24 L 52 14 C 53 11, 56 12, 56 15 L 56 26 Z"/>
+
+    <!-- tail -->
+    <path d="M160 46 C 171 56, 176 80, 172 102 C 170 114, 165 120, 162 118 C 158 116, 163 108, 163 96 C 163 78, 158 60, 153 51 Z"/>
+
+    <!-- far foreleg -->
+    <path d="M88 76 L 102 76 L 100 112 L 99 149 L 91 149 L 91 112 Z"/>
+    <rect x="89" y="149" width="12" height="6" rx="1.5"/>
+    <!-- near foreleg -->
+    <path d="M62 74 L 78 74 L 75 112 L 74 149 L 65 149 L 66 112 Z"/>
+    <rect x="63" y="149" width="13" height="6" rx="1.5"/>
+
+    <!-- far hind leg -->
+    <path d="M124 66 L 146 70 L 144 100 C 143 106, 138 108, 137 114 L 136 149 L 128 149 L 128 112 C 128 104, 124 96, 122 86 Z"/>
+    <rect x="126" y="149" width="12" height="6" rx="1.5"/>
+    <!-- near hind leg -->
+    <path d="M140 64 L 166 70 L 163 102 C 162 108, 157 110, 156 116 L 155 149 L 146 149 L 146 114 C 146 104, 142 94, 139 84 Z"/>
+    <rect x="144" y="149" width="13" height="6" rx="1.5"/></g>
+
+    <!-- grasses -->
+    <g stroke="#0b1913" stroke-width="3" stroke-linecap="round" opacity="0.85">
+      <path d="M60 1000 C 58 960, 50 940, 44 924"/>
+      <path d="M78 1000 C 78 966, 86 944, 96 928"/>
+      <path d="M300 1000 C 298 968, 290 950, 282 934"/>
+      <path d="M318 1000 C 320 970, 330 952, 340 940"/>
+      <path d="M640 1000 C 638 964, 630 946, 622 930"/>
+      <path d="M660 1000 C 662 968, 672 950, 684 938"/>
+      <path d="M724 1000 C 722 966, 714 948, 706 936"/>
+    </g>
+  </g>
+</svg>

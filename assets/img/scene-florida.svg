@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a Florida show ring at sunset with palms">
+  <defs>
+    <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a4d76"/>
+      <stop offset="45%" stop-color="#c47a62"/>
+      <stop offset="78%" stop-color="#eeae70"/>
+      <stop offset="100%" stop-color="#f6d9a8"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8a173"/>
+      <stop offset="100%" stop-color="#8d6a45"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#fsky)"/>
+  <circle cx="240" cy="520" r="78" fill="#f8e2b4" opacity="0.9"/>
+  <path fill="#7a5c3e" opacity="0.35" d="M-20 596 C 160 578, 360 606, 820 574 L820 700 L-20 700 Z"/>
+
+  <!-- palms -->
+  <g fill="#2f3a2b">
+    <!-- tall palm: trunk curves away from the prevailing wind -->
+    <path d="M590 640 C 586 570, 594 512, 614 468 l 13 5 C 609 516, 601 572, 604 640 Z"/>
+    <g transform="translate(622 466)">
+      <path d="M0 0 C 30 -18, 66 -14, 96 6 C 66 -2, 32 4, 4 12 Z"/>
+      <path d="M0 0 C 32 2, 62 18, 82 46 C 60 24, 30 12, 2 12 Z"/>
+      <path d="M0 0 C -30 -18, -66 -14, -96 6 C -66 -2, -32 4, -4 12 Z"/>
+      <path d="M0 0 C -32 2, -62 18, -82 46 C -60 24, -30 12, -2 12 Z"/>
+      <path d="M0 0 C 14 -28, 38 -44, 66 -50 C 40 -38, 18 -20, 6 4 Z"/>
+      <path d="M0 0 C -14 -28, -38 -44, -66 -50 C -40 -38, -18 -20, -6 4 Z"/>
+      <path d="M0 0 C 6 -30, 4 -52, -2 -66 C -10 -48, -8 -24, -6 2 Z"/>
+    </g>
+
+    <!-- shorter palm -->
+    <path d="M136 640 C 133 590, 139 546, 153 512 l 11 4 C 152 548, 146 592, 148 640 Z"/>
+    <g transform="translate(159 510) scale(0.74)" opacity="0.94">
+      <path d="M0 0 C 30 -18, 66 -14, 96 6 C 66 -2, 32 4, 4 12 Z"/>
+      <path d="M0 0 C 32 2, 62 18, 82 46 C 60 24, 30 12, 2 12 Z"/>
+      <path d="M0 0 C -30 -18, -66 -14, -96 6 C -66 -2, -32 4, -4 12 Z"/>
+      <path d="M0 0 C -32 2, -62 18, -82 46 C -60 24, -30 12, -2 12 Z"/>
+      <path d="M0 0 C 14 -28, 38 -44, 66 -50 C 40 -38, 18 -20, 6 4 Z"/>
+      <path d="M0 0 C -14 -28, -38 -44, -66 -50 C -40 -38, -18 -20, -6 4 Z"/>
+      <path d="M0 0 C 6 -30, 4 -52, -2 -66 C -10 -48, -8 -24, -6 2 Z"/>
+    </g>
+  </g>
+
+  <!-- arena -->
+  <path fill="url(#sand)" d="M-20 652 C 200 628, 520 672, 820 638 L820 940 L-20 940 Z"/>
+  <g stroke="#f3ece0" stroke-width="7" opacity="0.85" stroke-linecap="round">
+    <path d="M60 742 h150"/><path d="M60 742 v-46"/><path d="M210 742 v-46"/>
+    <path d="M60 712 h150"/>
+    <path d="M330 768 h160"/><path d="M330 768 v-50"/><path d="M490 768 v-50"/>
+    <path d="M330 736 h160"/>
+    <path d="M600 748 h150"/><path d="M600 748 v-46"/><path d="M750 748 v-46"/>
+    <path d="M600 718 h150"/>
+  </g>
+  <g stroke="#6d4f33" stroke-width="5" opacity="0.5">
+    <path d="M-20 866 C 220 846, 540 888, 820 852"/>
+  </g>
+</svg>
